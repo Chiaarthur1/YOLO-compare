@@ -1,0 +1,35 @@
+models:
+  yolov8_weights: "weights/yolov8_rdd2022.pt"
+  yolov10_weights: "weights/yolov10_rdd2022.engine"
+  model_type: "yolov8"
+  device: null
+  image_size: 640
+  confidence: 0.25
+  iou: 0.45
+  prefer_tensorrt: true
+
+classes:
+  D00: 0.25
+  D10: 0.25
+  D20: 0.70
+  D40: 0.70
+
+camera:
+  source: "0"
+  queue_size: 2
+  reconnect_delay_seconds: 2.0
+  max_reconnect_attempts: 0
+  reconnect_on_eof: true
+  width: 1280
+  height: 720
+  fps: 60
+  buffer_size: 1
+
+runtime:
+  output: null
+  display: true
+  window_name: "RDD2022 Road Damage Detection"
+
+logging:
+  file: "road_ai.log"
+  level: "INFO"

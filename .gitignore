@@ -1,0 +1,24 @@
+.venv/
+__pycache__/
+*.py[cod]
+
+# Raw and generated datasets are too large for GitHub.
+data/raw/
+data/rdd2022/
+data/rdd2022_smoke/
+data/verification/
+data/processed/
+
+# Model weights and generated experiment artefacts.
+weights/
+*.pt
+*.onnx
+*.engine
+runs/
+road_ai.log
+*.mp4
+
+# Local archives and editor files.
+downloads/
+*.zip
+.vscode/
