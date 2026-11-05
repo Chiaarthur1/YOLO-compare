@@ -66,7 +66,7 @@ For detailed guidelines regarding hyperparameter settings, loss functions, evalu
 
 ## 👤 Author
 
-**Artur Malakhov (麦亚图)**  
+**Artur Malakhov**  
 B.Sc. Student in Computer Science & Intelligent Control Systems (09.03.01)  
 *Institute of Artificial Intelligence, RTU MIREA (Moscow, Russia)*  
 🔗 GitHub: [@Chiaarthur1](https://github.com/Chiaarthur1)
